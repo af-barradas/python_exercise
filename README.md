@@ -14,19 +14,27 @@ This project processes customer data from a CSV file and performs the following 
 
 ```text
 .
-|-- main.py
-|-- app.py
-|-- config.py
-|-- sources/
-|   |-- csv_source.py
-|   `-- data_source.py
-|-- services/
-|   |-- mask_data_service.py
-|   `-- report_service.py
-|-- utils/
-|   `-- validate_input_utils.py
-`-- files/
-    `-- customers.csv
+├── main.py
+├── app.py
+├── config.py
+├── README.md
+├── sources/
+│   ├── csv_source.py
+│   └── data_source.py
+├── services/
+│   ├── mask_data_service.py
+│   └── report_service.py
+├── utils/
+│   └── validate_input_utils.py
+├── tests/
+│   ├── test_app.py
+│   ├── test_csv_source.py
+│   ├── test_mask_data_service.py
+│   ├── test_report_service.py
+│   └── test_validate_input_utils.py
+└── files/
+    ├── customers.csv
+    └── masked_clients.csv
 ```
 
 ## Configuration
